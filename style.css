@@ -1,0 +1,114 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+}
+
+/* Poster banner design */
+
+.poster{
+    display: flex;
+    /* width: 11440; */
+    height: 677px;
+    background: #2D25A0;
+    justify-content: space-between;
+    border: 1px solid rgb(202, 22, 52);
+}
+.headline{
+    color: white;
+    padding: 207px 0 240px 150px;
+    font-weight: bold;
+    line-height: 38px;
+    font-size: 22px;
+    
+
+}
+.button{
+    color: white;
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.banner img{
+    width: 556px;
+    height: 438px;
+    padding: 153px 140px 0 0;
+}
+/* 
+players information */
+
+.player-info{
+    margin: 70px 210px 27px 80px;
+
+
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    justify-items: center;
+    
+    
+    
+}
+
+.player{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    /* border: 15px solid white; */
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    
+    /* margin: 10px 40px 10px 70px; */
+}
+.player img{
+    width: 100%;
+    
+}
+
+/* update news */
+
+.update{
+    display: flex;
+    
+
+}
+.text{
+    width: 469px;
+    height: 309px;
+    padding: 224px 66px 0 182px;
+}
+.update-pic img{
+    width: 567px;
+    height: 427px;
+    padding: 165px 156px 0 0;
+}
+
+/* Copyright and contact info */
+.contact-info{
+    width: 483.87px;
+    height: 110px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    padding: 158px 480px 63px 475px;
+    
+}
+.logo-dsign img{
+    width:;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    display: flex;
+}
