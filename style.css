@@ -175,10 +175,26 @@ footer{
     .text{
         width: 329px;
         height: 299px;
+        padding:100px 15px 29px 15px;
     }
     .update-pic img{
         width: 328px;
         height: 248px;
+        padding: 49px 15px 54px 15px;    }
+
+    /* contact info */
+
+    .contact-info{
+        width: 280px;
+        height: 175px;
+        padding: 43px 62px 150px 18px;
+    }
+    .contact{
+        display: flex;
+        justify-content: flex-end;
+    }
+    footer{
+        padding: 0 62px;
     }
 
     
