@@ -164,8 +164,8 @@ footer{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         
-        /* justify-content: center; */
-        padding: 0 15px;
+        justify-content: center;
+        padding-left: 115px;
     }
 
     
